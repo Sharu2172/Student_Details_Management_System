@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$name = "1mj18cs707";
+$name = "SDMS";
 $user = "root";
 $pass = "";
 ?>
