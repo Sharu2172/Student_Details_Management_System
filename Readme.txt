@@ -9,3 +9,5 @@ Setup Instructions :-
 2.Check the credentials of database in config.php File.
 3.In your Web browser goto localhost/<folder name>.
 4.The database will be setup automatically if not present before.
+5.The Default admin username is 'admin' and password is 'admin'.
+6.After setup You can change the data in Readme.txt to show what you need in about section.
