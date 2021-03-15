@@ -1,6 +1,13 @@
 <?php
 //Getting the database credentials
-include("dbcon.php");
+include("config.php");
+//Using data from config.php to connect to database
+$conn = mysqli_connect($host,$user,$pass);//host_name,username,password
+//check connection
+if (!$conn) {
+    echo "connection failed: " . mysqli_connect_error()."<br>";
+    echo "connection error no: " . mysqli_connect_errno();
+}
 //Checking if database is avilable or not.
 $check = 'CREATE DATABASE ' . $name;
 if ($conn->query($check)) {
