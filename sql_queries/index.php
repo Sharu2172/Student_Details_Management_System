@@ -1,7 +1,7 @@
 <?php
 //Getting the database credential
 include("../config.php");
-include("../Student/extra/Session.php");
+include("../Session.php");
 //Using data from config.php to connect to database
 $conn = mysqli_connect($host,$user,$pass,$name);//host_name,username,password,Database_name
 //check connection
